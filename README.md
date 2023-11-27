@@ -1,6 +1,8 @@
 # Dropbox Clone Project
 
-This is a project to clone the Dropbox website for educational purposes only.
+This is a simple project to clone the Dropbox webpage for educational purposes only.
+
+![Dropbox Clone](public/dashboard_light.png)
 
 ## Technologies Used
 

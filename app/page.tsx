@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <div>
         <div className="p-20 flex flex-col bg-[#1e1919] dark:bg-slate-800 text-white space-y-10 items-center justify-center">
-          <Link href="/" className="flex cursor-pointer bg-blue-500 p-1 rounded-full w-fit text-white text-sm font-bold items-center justify-center space-x-2 px-4 py-2 underline text-center"
+          <Link href="https://github.com/philsv/dropbox_clone" className="flex cursor-pointer bg-blue-500 p-1 rounded-full w-fit text-white text-sm font-bold items-center justify-center space-x-2 px-4 py-2 underline text-center"
           >
             This is a drobox clone for educational purposes only
           </Link>
@@ -37,10 +37,10 @@ export default function Home() {
 
       </div>
 
-      <p className="text-center font-bold text-xl pt-5">
+      <p className="text-center font-bold text-xl pt-20">
         Disclaimer
       </p>
-      <p className="text-center font-light p-2 max-w-2xl text-center mx-auto">
+      <p className="text-center font-light p-2 max-w-2xl text-center mx-auto pb-10">
         We do not own or affiliate with Dropbox or/and any of its subsidiaries in any form. Copyright Disclaimer under section 107 of the Copyright Act 1975, allowance is made for "fair use" of this content for education purposes.</p>
     </main>
   )

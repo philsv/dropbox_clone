@@ -32,7 +32,7 @@ function Header() {
         <SignedOut>
           <SignUpButton afterSignUpUrl='/dashboard' mode="modal" />
           <SignInButton afterSignInUrl='/dashboard' mode="modal">Log in</SignInButton>
-        </SignedOut>
+        
         <Link
           href="/dashboard"
           className="flex cursor-pointer bg-blue-500 p-2 w-fit text-white text-sm font-bold items-center justify-center space-x-2 px-4 py-2"
@@ -40,6 +40,7 @@ function Header() {
           Get Started
           <ArrowRight className="ml-6" />
         </Link>
+      </SignedOut>
       </div>
     </header>
   )
