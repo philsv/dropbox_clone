@@ -8,7 +8,7 @@ export default function Home() {
         <div className="p-20 flex flex-col bg-[#1e1919] dark:bg-slate-800 text-white space-y-10 items-center justify-center">
           <Link href="/" className="flex cursor-pointer bg-blue-500 p-1 rounded-full w-fit text-white text-sm font-bold items-center justify-center space-x-2 px-4 py-2 underline text-center"
           >
-            This is only a drobox clone for educational purposes
+            This is a drobox clone for educational purposes only
           </Link>
 
           <h1 className="text-5xl font-medium text-center max-w-2xl">
@@ -18,7 +18,7 @@ export default function Home() {
           <p className="text-center font-light max-w-2xl">
             With Dropbox, you get a full suite of tools designed to help you create, share, manage and track content more efficiently. Plus, proven cloud storage you can trust.
           </p>
-          <Link href="/dashboard" className="flex cursor-pointer bg-blue-500 p-6 w-fit"
+          <Link href="/dashboard" className="flex cursor-pointer bg-blue-500 p-6 w-fit text-black font-bold"
           >
             Get Started now
             <ArrowRight className="ml-6" />
@@ -28,7 +28,7 @@ export default function Home() {
         <div>
           <video autoPlay loop muted className="rounded-lg">
             <source 
-              src="/public/hero_video.mp4" 
+              src="/hero_video.mp4" 
               type="video/mp4" 
             />
             Your browser does not support the video tag.
