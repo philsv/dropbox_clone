@@ -1,4 +1,4 @@
-# Drobox Clone Project
+# Dropbox Clone Project
 
 This is a project to clone the Dropbox website for educational purposes only.
 
