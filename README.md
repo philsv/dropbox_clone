@@ -7,6 +7,7 @@ This is a simple project to clone the Dropbox webpage for educational purposes o
 ## Technologies Used
 
 * React
+* Nextjs
 * Clerk
 * Shadcn
 * Firebase
