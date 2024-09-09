@@ -6,10 +6,6 @@ export default function Home() {
     <main>
       <div>
         <div className="p-20 flex flex-col bg-[#1e1919] dark:bg-slate-800 text-white space-y-10 items-center justify-center">
-          <Link href="https://github.com/philsv/dropbox_clone" className="flex cursor-pointer bg-blue-500 p-1 rounded-xl w-fit text-sm font-bold items-center justify-center space-x-2 px-4 py-2 text-center text-gray-200">
-            This is a Dropbox clone for educational purposes only!
-          </Link>
-
           <h1 className="text-5xl font-medium text-center max-w-2xl">
           Join over 700 million registered users who trust Dropbox
           </h1>
